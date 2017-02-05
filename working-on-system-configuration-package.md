@@ -12,7 +12,7 @@ msbuild.cmd /t:buildandtest ..\src\System.Configuration.ConfigurationManager\tes
 
 ###Coverage reports
 msbuild /p:Coverage=true  
-Results - corefx\bin\tests\coverage\index.htm
+Results - corefx\bin\tests\coverage\index.htm  
 https://ci.dot.net/job/dotnet_corefx/job/master/job/code_coverage_windows/
 
 ###Debug Tests
