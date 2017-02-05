@@ -10,3 +10,6 @@ firefox ../bin/AnyOS.AnyCPU.Debug/System.Configuration.ConfigurationManager.Test
 #Build and test Windows
 msbuild.cmd /t:buildandtest ..\src\System.Configuration.ConfigurationManager\tests\System.Configuration.ConfigurationManager.Tests.csproj
 
+#Coverage reports
+https://ci.dot.net/job/dotnet_corefx/job/master/job/code_coverage_windows/
+
