@@ -11,6 +11,8 @@ firefox ../bin/AnyOS.AnyCPU.Debug/System.Configuration.ConfigurationManager.Test
 msbuild.cmd /t:buildandtest ..\src\System.Configuration.ConfigurationManager\tests\System.Configuration.ConfigurationManager.Tests.csproj
 
 ###Coverage reports
+msbuild /p:Coverage=true
+Results - corefx\bin\tests\coverage\index.htm
 https://ci.dot.net/job/dotnet_corefx/job/master/job/code_coverage_windows/
 
 ###Debug Tests
